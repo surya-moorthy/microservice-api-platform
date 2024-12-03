@@ -1,0 +1,11 @@
+database:
+   host: localhost
+   port: 5432
+   username: pgdb
+   password: password
+   dbname: micro-service
+   sslmode: disable
+   pool:
+      maxopen: 10
+      maxidle: 10
+      idletimeout: 5m
